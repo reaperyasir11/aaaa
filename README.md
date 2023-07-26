@@ -1,5 +1,6 @@
 ---
 license: creativeml-openrail-m
+duplicated_from: stabilityai/stable-diffusion-xl-refiner-1.0
 ---
 # SD-XL 1.0-refiner Model Card
 ![row01](01.png)
