@@ -1,6 +1,8 @@
 ---
-license: creativeml-openrail-m
-duplicated_from: stabilityai/stable-diffusion-xl-refiner-1.0
+license: openrail++
+tags:
+- stable-diffusion
+- text-to-image
 ---
 # SD-XL 1.0-refiner Model Card
 ![row01](01.png)
@@ -61,7 +63,7 @@ You can use the model then as follows
 from diffusers import DiffusionPipeline
 import torch
 
-pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-0.9", torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
+pipe = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1-0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
 pipe.to("cuda")
 
 # if using torch < 2.0
